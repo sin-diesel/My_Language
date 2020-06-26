@@ -1,0 +1,4 @@
+MOVI 112
+OUT D
+IN B
+ADD B, D
