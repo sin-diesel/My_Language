@@ -123,32 +123,32 @@ My_Language/fast:
 	$(MAKE) -f CMakeFiles/My_Language.dir/build.make CMakeFiles/My_Language.dir/build
 .PHONY : My_Language/fast
 
-main.o: main.c.o
+source/main.o: source/main.c.o
 
-.PHONY : main.o
+.PHONY : source/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/My_Language.dir/build.make CMakeFiles/My_Language.dir/main.c.o
-.PHONY : main.c.o
+source/main.c.o:
+	$(MAKE) -f CMakeFiles/My_Language.dir/build.make CMakeFiles/My_Language.dir/source/main.c.o
+.PHONY : source/main.c.o
 
-main.i: main.c.i
+source/main.i: source/main.c.i
 
-.PHONY : main.i
+.PHONY : source/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/My_Language.dir/build.make CMakeFiles/My_Language.dir/main.c.i
-.PHONY : main.c.i
+source/main.c.i:
+	$(MAKE) -f CMakeFiles/My_Language.dir/build.make CMakeFiles/My_Language.dir/source/main.c.i
+.PHONY : source/main.c.i
 
-main.s: main.c.s
+source/main.s: source/main.c.s
 
-.PHONY : main.s
+.PHONY : source/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/My_Language.dir/build.make CMakeFiles/My_Language.dir/main.c.s
-.PHONY : main.c.s
+source/main.c.s:
+	$(MAKE) -f CMakeFiles/My_Language.dir/build.make CMakeFiles/My_Language.dir/source/main.c.s
+.PHONY : source/main.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... My_Language"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
 .PHONY : help
 
 

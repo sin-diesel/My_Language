@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/igorsidelnikov/CLionProjects/My_Language/main.c">
+		<Unit filename="/Users/igorsidelnikov/CLionProjects/My_Language/source/main.c">
 			<Option target="My_Language"/>
 		</Unit>
 		<Unit filename="/Users/igorsidelnikov/CLionProjects/My_Language/CMakeLists.txt">
