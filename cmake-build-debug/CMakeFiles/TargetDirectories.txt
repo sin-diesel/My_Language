@@ -1,0 +1,3 @@
+/Users/igorsidelnikov/CLionProjects/My_Language/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/igorsidelnikov/CLionProjects/My_Language/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/igorsidelnikov/CLionProjects/My_Language/cmake-build-debug/CMakeFiles/My_Language.dir
